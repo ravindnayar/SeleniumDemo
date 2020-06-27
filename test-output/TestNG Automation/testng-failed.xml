@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Automation]">
+  <test name="Test Classes(failed)" preserve-order="true">
+    <classes>
+      <class name="com.testng.AssertionExample">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testng.AssertionExample -->
+      <class name="com.testng.GoogleTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="googleLogoTest"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTest -->
+      <class name="com.testng.testNGBasics">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="deleteAllCookies"/>
+          <include name="generateTestReport"/>
+          <include name="launchBrowser"/>
+          <include name="setup"/>
+          <include name="enterURL"/>
+          <include name="closeBrwser"/>
+        </methods>
+      </class> <!-- com.testng.testNGBasics -->
+    </classes>
+  </test> <!-- Test Classes(failed) -->
+</suite> <!-- Failed suite [TestNG Automation] -->
